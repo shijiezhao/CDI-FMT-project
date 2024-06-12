@@ -1,20 +1,31 @@
 # CDI-FMT-project
-This repository contains python codes I used for my CDI-FMT paper. 
-# Python modules
 
-* Helper: with some basic modules for read in OTU table, and convert them into operatable Pandas Dataframe.
-0. Preprocessing: with modules from Helper, convert the file into Pandas
-1. Boxplot: contains modules to plot boxplot, current function is designed only for SDI plotting.
-2. Volcano plot: do volcano plot for all the features that I have, this is a feature seletion step?
+Welcome to the repository for the Clostridium Difficile Infection Fecal Microbiota Transplantation (CDI-FMT) study. This repository hosts the Python code utilized in the analysis for the CDI-FMT paper.
 
-# Lit. Rev.
-1. Paper 1
-2. Paper 2
-3. Paper 3
-4. Paper 4
-5. Paper 5
-6. Paper 6
-7. Paper 7
-8. Paper 8
-9. Paper 9
-10. Paper 10
+## Python Modules Overview
+
+This project is structured into several modules, each designed to perform specific tasks related to the data analysis presented in the CDI-FMT paper.
+
+### Helper
+- **Functionality**: Contains basic modules to read in the OTU table and convert it into an operable Pandas DataFrame.
+
+### Preprocessing
+- **Dependencies**: Utilizes modules from the Helper.
+- **Purpose**: Converts files into Pandas DataFrames for further analysis.
+
+### Boxplot
+- **Features**: Includes modules to generate boxplots. 
+- **Specifics**: Currently, the function is tailored specifically for plotting the Simpson Diversity Index (SDI).
+
+### Volcano Plot
+- **Description**: Implements volcano plotting for all features.
+- **Purpose**: This module acts as a feature selection step, identifying significant features for further analysis.
+
+## Getting Started
+
+To replicate the analysis:
+1. Ensure you have Python installed along with the necessary libraries (Pandas, Matplotlib, etc.).
+2. Clone this repository.
+3. Run the scripts in the order specified by their dependencies.
+
+For any issues or further inquiries, please open an issue in this repository.
